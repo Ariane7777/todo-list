@@ -8,12 +8,12 @@
 {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(130deg, #153677, #4e085f);
+    background: linear-gradient(130deg, #774915, #5f0825);
     padding: 10px;
 }
 
 .todo{
-    background-color: white;
+    background-color:rgb(170, 170, 11);
     width: 100%;
     max-width: 540px;
     margin: 100px auto 2px;
@@ -21,7 +21,7 @@
     border-radius: 10px;
 }
 .todo h2{
-    color: #002765;
+    color: #942706;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -67,6 +67,10 @@ button{
     margin: 4px;
     
 }
+#list{
+    color: white ;
+}
+
 ul li{
     list-style: none;
     font-size: 13px;
@@ -75,6 +79,7 @@ ul li{
     user-select: none;
     cursor: pointer;
     position: relative;
+
     
 }
 
@@ -87,11 +92,13 @@ ul li::before{
     background-image:url(image/circle-line.png);
     background-size:  cover;
     background-position: center;
+    background-color:white ;
     
     top: 14px;
     left: 15px;
 
 }
+
 ul li.checked{
     color: #0cea1f;
     text-decoration: line-through;
@@ -108,7 +115,7 @@ ul li span{
     width: 35px;
     height: 35px;
     font-size: 18px;
-    color: #ee0808;
+    color: #bcee08;
     /* line-height: 40px; */
     text-align: center;
     border-radius: 50%;
